@@ -1,0 +1,65 @@
+h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin: 20px 0;
+    font-weight: 900;
+    color:rgb(23, 204, 23);
+  
+}
+h3 {
+    color:rgb(11, 158, 72);
+    font-size: large;
+    font-weight: bold;
+}
+h2 {
+    
+color:rgb(11, 158, 72);
+ font-weight: bold;
+ font-variant: normal;
+}
+a {
+    color: white;
+    text-decoration: none;
+ 
+}
+.equipos {
+    width: 55%;
+    
+}
+
+.slider { 
+   
+    width: 55%;
+    margin: 20px;
+    overflow: hidden;
+    padding: 0;
+    background-attachment: fixed;
+}
+.slider ul {
+    display: flex;
+    width: 800%;
+    padding: 0;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+.slider li {
+    list-style: none;
+    width: 100%;
+   
+}
+
+@keyframes cambio {
+   0% {margin-left: 0;}
+   20% {margin-left: 0;}
+
+   25% {margin-left: -200%;}
+   45% {margin-left: -200%;}  
+   
+   50% {margin-left: -400%;}
+   70% {margin-left: -400%;}
+
+   75% {margin-left: -600%;}
+   100% {margin-left: -600%;}
+
+}
+
